@@ -4,7 +4,6 @@ namespace Homework_2
 {
     public class UserService
     {
-
         public UserService() { }
 
         public string ProcessData(string dataName)

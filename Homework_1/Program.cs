@@ -8,7 +8,6 @@ namespace Homework_1
         {
             Executor executor = new Executor();
             executor.Run();
-
         }
     }
 }

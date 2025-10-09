@@ -8,17 +8,14 @@ namespace Homework_1
         {
             return firstOperand + secondOperand;
         }
-
         public static double Subtract(double firstOperand, double secondOperand)
         {
             return firstOperand - secondOperand;
         }
-
         public static double Multiply(double firstOperand, double secondOperand)
         {
             return firstOperand * secondOperand;
         }
-
         public static double Divide(double firstOperand, double secondOperand)
         {
             if (secondOperand == 0)
@@ -28,6 +25,5 @@ namespace Homework_1
             }
             return firstOperand / secondOperand;
         }
-
     }
 }

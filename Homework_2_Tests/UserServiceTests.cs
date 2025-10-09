@@ -9,7 +9,7 @@ namespace Homework_2
         [TestMethod]
         public void ProcessData_WhenCalled_ReturnsCorrectString()
         {
-           
+
             var service = new UserService();
             string dataName = "SimpleFile";
             string expected = "Обработка 'SimpleFile' завершена за 3 секунды";
